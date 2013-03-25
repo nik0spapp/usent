@@ -4,7 +4,7 @@ unsupervised_sentiment
 Dependencies
 ------------
 The available code for unsupervised sentiment classification requires Python programming 
-language and pip package manager for Python. For detailed installing instructions please refer to 
+language and pip package manager to run. For detailed installing instructions please refer to 
 the following links: <br />
 http://www.python.org/getit/ <br />
 http://www.pip-installer.org/en/latest/
@@ -17,25 +17,26 @@ $ pip install numpy
 $ pip install pickle 
 ```
 
-After you install nltk you will need some corpora to train the sequential POS tagger, the tokenizer 
-``` $ python ``` <br />
+After you install nltk you will need some corpora to train the sequential POS tagger (pos.py) and the nltk tokenizer.
+```bash
+$ python 
+```
 ```python
 import nltk 
 nltk.download() 
 ```  
-After the graphical interface is loaded select and download the following: <br />
-- tokenizers/punkt/english
-- wordnet
-- brown
-- conll2000
-- treebank
+The issue of the above command will load a graphical interface that lets you manage several corpora
+related to nltk library. From the list select and download the following corpora: 
+tokenizers/punkt/english, wordnet, brown, conll2000 and treebank. 
 
 Lastly, pyml library is needed for the SVM classifier that is used currently in our code. <br />
 Download http://pyml.sourceforge.net/  <br />
- ``` $ tar zxvf PyML-0.7.11.tar.gz ```   <br />
- ``` $ cd PyML-0.7.11 ```   <br />
- ``` $ python setup.py build ```   <br />
- ``` $ python setup.py install ```   <br />
+```bash 
+ $ tar zxvf PyML-0.7.11.tar.gz
+ $ cd PyML-0.7.11
+ $ python setup.py build
+ $ python setup.py install 
+```
 
 
 Current pipeline
