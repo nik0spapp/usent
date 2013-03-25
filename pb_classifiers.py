@@ -36,8 +36,8 @@ class PbSubj:
         # Strong subjective patterns
         self.ss_patterns = {} 
         self.sorted_ss_patterns = None
-        self.t1_threshold = 5 #3
-        self.t2_threshold = 1 #0.9
+        self.t1_threshold = 5
+        self.t2_threshold = 1 
         self.pl_threshold = 25
         self.limit = 1
         self.debug = debug
