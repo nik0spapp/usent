@@ -48,6 +48,7 @@ Current pipeline
 
 Examples
 --------
+```bash
 $ python sentiment.py "I have to give much love and respect to Rony. Your work is Amazing\!"
 
 [*] Checking block of text:
@@ -62,8 +63,9 @@ $ python sentiment.py "I have to give much love and respect to Rony. Your work i
  negative-------> 0.00%
 
 [x] positive (7.00, 0.96)
+```
 
-
+```bash
 $ python sentiment.py "I was blown away by some of the comments here posted by people who is either uneducated, ignorant, self-righteous or al-of-the-above. I'm irritated and saddened as I read these finger-pointing\"g or \"i'm right and you're wrong\" type of posts\!"
 
 [*] Checking block of text:
@@ -78,8 +80,9 @@ $ python sentiment.py "I was blown away by some of the comments here posted by p
  negative-------> 100.00%
 
 [x] negative (-8.00, -0.32)
+```
 
-
+```bash
 $ python sentiment.py "I found your presentation amazing! However, some of your results are misleading,  unjustified and irrational."
 
 [*] Checking block of text:
@@ -94,5 +97,7 @@ $ python sentiment.py "I found your presentation amazing! However, some of your 
  negative-------> 50.00%
 
 [x] negative (-4.00, 0.23)
+```
+
 
 
