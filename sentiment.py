@@ -123,16 +123,15 @@ class Sentiment:
                         results[sentiment]['nscore'] += nscore
                         results[sentiment]['score'] += score
                         results[sentiment]['count'] += 1 
-                
-                if DEBUG:
-                    print       
-                    print Tcolors.ACT + " Overall sentiment analysis:"
-                    print Tcolors.BGH
-                    print " Parts: ", len(sentences)
-                    print " Sentiments: ", sentiments
-                    print " Scores: ", scores 
-                    print " Results: ", "},\n\t    ".join((str)(results).split("}, "))
-                    print Tcolors.C
+                          
+                print       
+                print Tcolors.ACT + " Overall sentiment analysis:"
+                print Tcolors.BGH
+                print " Parts: ", len(sentences)
+                print " Sentiments: ", sentiments
+                print " Scores: ", scores 
+                print " Results: ", "},\n\t    ".join((str)(results).split("}, "))
+                print Tcolors.C
 
                 pcount = results['positive']['count']
                 ncount = results['negative']['count'] 

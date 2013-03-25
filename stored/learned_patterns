@@ -396,15 +396,15 @@ p106
 g3
 g31
 sg5
-I25
+I27
 sg6
-I25
+I27
 sg7
 Vgive
 p108
 sg9
 F1.0
-ssV<subj> conveyed
+ssV<subj> keep
 p109
 (dp110
 g12
@@ -414,7 +414,7 @@ I9
 sg14
 g15
 sg16
-Vconveyed
+Vkeep
 p111
 sg18
 F1.0
@@ -508,9 +508,9 @@ p130
 g3
 g4
 sg5
-I25
+I27
 sg6
-I25
+I27
 sg7
 Vgive
 p132
@@ -741,7 +741,7 @@ S'found'
 p181
 sg62
 F1.0
-ssV<subj> keep
+ssV<subj> conveyed
 p182
 (dp183
 g12
@@ -751,7 +751,7 @@ I9
 sg14
 g15
 sg16
-Vkeep
+Vconveyed
 p184
 sg18
 F1.0
