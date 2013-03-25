@@ -36,8 +36,8 @@ class PbSubj:
         # Strong subjective patterns
         self.ss_patterns = {} 
         self.sorted_ss_patterns = None
-        self.t1_threshold = 5
-        self.t2_threshold = 1 
+        self.t1_threshold = 5 # 3
+        self.t2_threshold = 1 # 0.9
         self.pl_threshold = 25
         self.limit = 1
         self.debug = debug
@@ -141,6 +141,7 @@ class PbSubj:
             prob = self.learned_patterns[pattern]['prob']
             if freq >= self.t1_threshold and prob >= self.t2_threshold: 
                 self.ss_patterns[pattern] = self.learned_patterns[pattern]
+            # delete some patterns with low frequency and probability for efficiency
             elif freq > 5 and freq < ((self.t1_threshold*3) / 4):
             	del(self.learned_patterns[pattern])
             
