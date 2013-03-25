@@ -1,5 +1,26 @@
 unsupervised_sentiment
 ======================
+The attached code implements an unsupervised sentiment classification procedure that was used in the following paper: 
+<ul><li>
+Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos, <i>Distinguishing the Popularity Between Topics: A System for Up-to-date Opinion Retrieval and Mining in the Web</i>, 14th International Conference on Intelligent Text Processing and Computational Linguistics, Samos, Greece, LNCS, Springer, 2013 <br /> 
+<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf</a>
+</li></ul>
+
+The method combines two different bootstraping procedures, namely for subjectivity and for polarity detection (1st
+and 2nd accordingly). The rule-based polarity classifier is an extension of the one that was presented in 
+the 3rd listed paper below.
+
+- E. Riloff and J. Wiebe. Learning extraction patterns for subjective expressions.
+In Proceedings of the 2003 conference on Empirical methods in natural language
+processing, EMNLP ’03, 2003.  <br />
+<a href="http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf" target="_blank">http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf</a>
+- D. K. M Wiegand. Bootstrapping supervised machine-learning polarity classifiers with rule-based classification. 
+In Proceedings of the ECAI-Workshop on Computational Approaches to Subjectivity and Sentiment Analysis (WASSA), 2009.  <br />
+<a href="http://www.lsv.uni-saarland.de/wassa.pdf" target="_blank">http://www.lsv.uni-saarland.de/wassa.pdf</a>
+- T. Wilson, J. Wiebe, and P. Hoffmann. Recognizing contextual polarity in phrase-level sentiment 
+analysis. In Proceedings of the conference on Human Language Technology and Empirical Methods in 
+Natural Language Processing, HLT ’05, 2005. <br />
+<a href="http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf" target="_blank">http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf</a>
 
 Dependencies
 ------------
