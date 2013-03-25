@@ -48,6 +48,12 @@ Current pipeline
 
 Examples
 --------
+To estimate the total sentiment and total normalized sentiment (as described in the papers), 
+you can simply execute the sentiment.py file and give the desired block of text as an argument.
+Make sure that you escape symbols such as '"' and '!'. Apart from the command line execution you 
+can integrate the library to your code and use directly the returned results. Below you can 
+find to simple examples for demonstrating purposes:
+
 ```bash
 $ python sentiment.py "I have to give much love and respect to Rony. Your work is Amazing\!"
 ```
