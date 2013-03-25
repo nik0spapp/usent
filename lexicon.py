@@ -1,5 +1,5 @@
 ####################################################################
-# Licence: 	  Creative Commons (see Licence.txt)                   #
+# Licence:    Creative Commons (see COPYRIGHT)                     #
 # Authors:    Nikolaos Pappas, Georgios Katsimpras                 #
 #             {nik0spapp, gkatsimpras}@gmail.com                   # 
 # Supervisor: Efstathios stamatatos                                #
