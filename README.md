@@ -7,8 +7,8 @@ Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos, <i>Distinguishing t
 </li></ul>
 
 The method combines two different bootstraping procedures, namely for subjectivity and polarity detection (1st
-and 2nd accordingly). The rule-based polarity classifier is an extension of the one that was presented in 
-the 3rd listed paper below.
+and 2nd paper accordingly). The rule-based polarity classifier is an extension of the one that was presented in 
+the 3rd paper listed below.
 
 - E. Riloff and J. Wiebe. Learning extraction patterns for subjective expressions.
 In Proceedings of the 2003 conference on Empirical methods in natural language
