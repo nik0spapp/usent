@@ -27,7 +27,7 @@ nltk.download()
 ```  
 The issue of the above command will load a graphical interface that lets you manage several corpora
 related to nltk library. From the list select and download the following corpora: 
-tokenizers/punkt/english, wordnet, brown, conll2000 and treebank. 
+*tokenizers/punkt/english*, *wordnet*, *brown*, *conll2000* and *treebank*. 
 
 Lastly, pyml library is needed for the SVM classifier that is used currently in our code. <br />
 Download http://pyml.sourceforge.net/ and then issue: <br />
