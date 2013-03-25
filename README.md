@@ -3,19 +3,24 @@ unsupervised_sentiment
 
 Dependencies
 ------------
-Install Python <br />
-Install pip
+The available code for unsupervised sentiment classification requires Python programming 
+language and pip package manager for Python. For detailed installing instructions please refer to 
+the following links: <br />
+http://www.python.org/getit/ <br />
+http://www.pip-installer.org/en/latest/
 
-$ pip install nltk <br />
-$ pip install stemmer <br />
-$ pip install numpy <br />
-$ pip install pickle <br />
+After installing them, you should be able to install the following packages: <br />
+``` $ pip install nltk ``` <br />
+``` $ pip install stemmer ``` <br />
+``` $ pip install numpy ``` <br />
+``` $ pip install pickle ``` <br />
 
-Download http://pyml.sourceforge.net/
-tar zxvf PyML-0.7.11.tar.gz
-cd PyML-0.7.11
-python setup.py build
-python setup.py install
+Lastly, pyml library is needed for the SVM classifier that is used currently in our code. <br />
+Download http://pyml.sourceforge.net/  <br />
+ ``` $ tar zxvf PyML-0.7.11.tar.gz ```   <br />
+ ``` $ cd PyML-0.7.11 ```   <br />
+ ``` $ python setup.py build ```   <br />
+ ``` $ python setup.py install ```   <br />
 
 
 Current pipeline
