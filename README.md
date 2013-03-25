@@ -3,13 +3,13 @@ unsupervised_sentiment
 
 Dependencies
 ------------
-Install Python
+Install Python <br />
 Install pip
 
-$ pip install nltk
-$ pip install stemmer
-$ pip install numpy
-$ pip install pickle
+$ pip install nltk <br />
+$ pip install stemmer <br />
+$ pip install numpy <br />
+$ pip install pickle <br />
 
 Download http://pyml.sourceforge.net/
 tar zxvf PyML-0.7.11.tar.gz
