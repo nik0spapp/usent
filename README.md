@@ -10,10 +10,25 @@ http://www.python.org/getit/ <br />
 http://www.pip-installer.org/en/latest/
 
 After installing them, you should be able to install the following packages: <br />
-``` $ pip install nltk ``` <br />
-``` $ pip install stemmer ``` <br />
-``` $ pip install numpy ``` <br />
-``` $ pip install pickle ``` <br />
+```bash
+$ pip install nltk  
+$ pip install stemmer 
+$ pip install numpy
+$ pip install pickle 
+```
+
+After you install nltk you will need some corpora to train the sequential POS tagger, the tokenizer 
+``` $ python ``` <br />
+```python
+import nltk 
+nltk.download() 
+```  
+After the graphical interface is loaded select and download the following: <br />
+- tokenizers/punkt/english
+- wordnet
+- brown
+- conll2000
+- treebank
 
 Lastly, pyml library is needed for the SVM classifier that is used currently in our code. <br />
 Download http://pyml.sourceforge.net/  <br />
