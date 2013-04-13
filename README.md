@@ -102,5 +102,5 @@ finger-pointing \"i'm right and you're wrong\" type of posts\!"
 ![ScreenShot](https://raw.github.com/nik0spapp/unsupervised_sentiment/master/examples/2.png)
 
 
-
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/29d6f7154783f3579ab26d15d2128ff1 "githalytics.com")](http://githalytics.com/nik0spapp/unsupervised_sentiment)
 
