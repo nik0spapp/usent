@@ -3,7 +3,7 @@ unsupervised_sentiment
 The attached code is an implementation of an unsupervised sentiment classification procedure that was used originally for an opinion mining
 and retrieval system (1st paper below) and for improving one-class collaborative filtering (2nd paper below). For the 2nd paper
 I have included a folder called "TED_comment_annotations" and contains the files of the human study we conducted on TED 
-comment sentiment classification. In case you use the code for research please cite the following papers:
+comment sentiment classification. In case you use the code or human labels for research please cite the following papers:
 <ul>
 <li>
 Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos, <i>Distinguishing the Popularity Between Topics: A System for Up-to-date Opinion Retrieval and Mining in the Web</i>, 14th International Conference on Intelligent Text Processing and Computational Linguistics, Samos, Greece, LNCS, Springer, 2013 <br /> 
