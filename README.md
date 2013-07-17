@@ -1,6 +1,7 @@
 unsupervised_sentiment
 ======================
-The attached code is an implementation of an unsupervised sentiment classification procedure that was used in the following papers: 
+The attached code is an implementation of an unsupervised sentiment classification procedure that was used in the following papers. 
+In case you use it for research please cite one of the following papers:
 <ul>
 <li>
 Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos, <i>Distinguishing the Popularity Between Topics: A System for Up-to-date Opinion Retrieval and Mining in the Web</i>, 14th International Conference on Intelligent Text Processing and Computational Linguistics, Samos, Greece, LNCS, Springer, 2013 <br /> 
