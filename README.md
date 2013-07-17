@@ -1,10 +1,17 @@
 unsupervised_sentiment
 ======================
-The attached code implements an unsupervised sentiment classification procedure that was used in the following paper: 
-<ul><li>
+The attached code is an implementation of an unsupervised sentiment classification procedure that was provided in the following paper: 
+<ul>
+<li>
 Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos, <i>Distinguishing the Popularity Between Topics: A System for Up-to-date Opinion Retrieval and Mining in the Web</i>, 14th International Conference on Intelligent Text Processing and Computational Linguistics, Samos, Greece, LNCS, Springer, 2013 <br /> 
 <a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf</a>
-</li></ul>
+</li>
+It has also been used for sentiment detection on TED comments:
+<li>
+Nikolaos Pappas, Andrei Popescu-Belis, <i>Sentiment Analysis of User Comments for One-Class Collaborative Filtering over TED Talks, 36th ACM SIGIR Conference on Research and Development in Information Retrieval, Short papers, Dublin, Ireland, ACM, 2013 <br /> 
+<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf</a>
+</li>
+</ul>
 
 The method combines two different bootstrapping procedures, namely for subjectivity and polarity detection (1st
 and 2nd paper accordingly). The rule-based polarity classifier is an extension of the one that was presented in 
