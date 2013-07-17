@@ -1,6 +1,6 @@
 unsupervised_sentiment
 ======================
-The attached code is an implementation of an unsupervised sentiment classification procedure (for English texts) that was used originally for an opinion mining
+The attached code is an implementation of an unsupervised sentiment classification and polarity detection procedure (for English text) that was used originally for an opinion mining
 and retrieval system (1st paper below) and for improving one-class collaborative filtering (2nd paper below). For the 2nd paper
 I have included a folder called "TED_comment_annotations" that contains the files of the human study we conducted on TED 
 comment sentiment classification (with 6 human annotators). In case you use the code or the human annotations of TED 
