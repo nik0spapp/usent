@@ -281,7 +281,7 @@ class Bootstrapping:
 
     def train(self, data):
         """
-            Method to train the patterned based classifier
+            Method to train the pattern-based classifier
         """
         for sentence in data:
             self.classify(sentence)  
