@@ -19,8 +19,8 @@ from stemming.porter2 import stem
 class HpSubj:
     """
         High precision subjective sentence classifier which uses an annotated 
-        lexicon as training data. It classifies a sentence as subjective if it
-        contains two or more of the strong subjective clues.
+        lexicon of words as features. It classifies a sentence as subjective 
+        if it contains two or more of the strong subjective clues.
     """
 
     def __init__(self, debug=False): 
