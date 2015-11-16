@@ -1,4 +1,4 @@
-unsupervised_sentiment
+Unsupervised subjectivity and polarity detection
 ======================
 The attached code is an implementation of an unsupervised sentiment classification procedure that was used originally for an opinion mining
 and retrieval system (1st paper below) and for improving one-class collaborative filtering (2nd paper below). For the 2nd paper
