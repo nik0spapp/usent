@@ -11,7 +11,7 @@ Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos, <i>Distinguishing t
 <a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf</a>
 </li> 
 <li>
-Nikolaos Pappas, Andrei Popescu-Belis, <i>Sentiment Analysis of User Comments for One-Class Collaborative Filtering over TED Talks, 36th ACM SIGIR Conference on Research and Development in Information Retrieval, Short papers, Dublin, Ireland, ACM, 2013 <br /> 
+Nikolaos Pappas, Andrei Popescu-Belis, <i>Sentiment Analysis of User Comments for One-Class Collaborative Filtering over TED Talks</i>, 36th ACM SIGIR Conference on Research and Development in Information Retrieval, Short papers, Dublin, Ireland, ACM, 2013 <br /> 
 <a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf</a>
 </li>
 </ul>
