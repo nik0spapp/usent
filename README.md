@@ -1,29 +1,52 @@
 Dictionary-based sentiment detection
 ======================
-The attached code is an implementation of a dictionary-based sentiment classification procedure that was used originally for an opinion mining
-and retrieval system (1st paper below) and for improving one-class collaborative filtering (2nd paper below). For the 2nd paper
-I have included a folder called "TED_comment_annotations" that contains the files of the human study we conducted on TED 
-comment sentiment classification (with 6 human annotators). In case you use the code or the human annotations of TED 
-comments for your research please cite the following papers:
-<ul>
-<li>
-Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos, <i>Distinguishing the Popularity Between Topics: A System for Up-to-date Opinion Retrieval and Mining in the Web</i>, 14th International Conference on Intelligent Text Processing and Computational Linguistics, Samos, Greece, LNCS, Springer, 2013 <br /> 
-<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf</a>
-</li> 
-<li>
-Nikolaos Pappas, Andrei Popescu-Belis, <i>Sentiment Analysis of User Comments for One-Class Collaborative Filtering over TED Talks</i>, 36th ACM SIGIR Conference on Research and Development in Information Retrieval, Short papers, Dublin, Ireland, ACM, 2013 <br /> 
-<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf</a>
-</li>
-</ul>
+The attached code is an implementation of a dictionary-based sentiment classification procedure that was used originally for an opinion mining and retrieval system presented at CICLing 2013 [<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf">1</a>]). 
 
-The method combines two different bootstrapping procedures, namely for subjectivity and polarity detection (1st
-and 2nd paper accordingly). The rule-based polarity classifier is an extension of the one that was presented in 
-the 3rd paper listed below.
+```
+@incollection{pappas13c,
+ location = {Samos, Greece},
+ year = {2013},
+ isbn = {978-3-642-37255-1},
+ booktitle = {Computational Linguistics and Intelligent Text Processing},
+ volume = {7817},
+ series = {Lecture Notes in Computer Science},
+ editor = {Gelbukh, Alexander},
+ doi = {10.1007/978-3-642-37256-8_17},
+ title = {Distinguishing the Popularity between Topics: A System for Up-to-Date Opinion Retrieval and Mining in the Web},
+ url = {http://dx.doi.org/10.1007/978-3-642-37256-8_17},
+ publisher = {Springer Berlin Heidelberg},
+ keywords = {Opinion Retrieval; Text Mining; Sentiment Analysis; Information Extraction; Utility-Based Agents},
+ author = {Pappas, Nikolaos and Katsimpras, Georgios and Stamatatos, Efstathios},
+ pages = {197-209}
+}
+```
+This code has been used also for improving one-class collaborative filtering ([<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf">2</a>]). There is a folder called "TED_comment_annotations" that contains the files of the human study we conducted on TED comment sentiment classification (with 6 human annotators).  
+ 
+```
+@inproceedings{pappas13a,
+ author = {Pappas, Nikolaos and Popescu-Belis, Andrei},
+ title = {Sentiment Analysis of User Comments for One-Class Collaborative Filtering Over {TED} Talks},
+ booktitle = {Proceedings of the 36th international ACM SIGIR conference on Research and development in information retrieval},
+ series = {SIGIR '13},
+ year = {2013},
+ isbn = {978-1-4503-2034-4},
+ location = {Dublin, Ireland},
+ pages = {773--776},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/2484028.2484116},
+ doi = {10.1145/2484028.2484116},
+ acmid = {2484116},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {one-class collaborative filtering, sentiment analysis},
+} 
+```
+
+The method combines two different bootstrapping procedures, namely for subjectivity and polarity detection (as in [<a href="http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf">3</a>, <a href="http://www.lsv.uni-saarland.de/wassa.pdf">4</a>] respectively). The rule-based polarity classifier is an extension of the one that was presented in [<a href="http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf">4</a>].
 
 - E. Riloff and J. Wiebe. Learning extraction patterns for subjective expressions.
 In Proceedings of the 2003 conference on Empirical methods in natural language
 processing, EMNLP ’03, 2003.  <br />
-<a href="http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf" target="_blank">http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf</a>
 - D. K. M Wiegand. Bootstrapping supervised machine-learning polarity classifiers with rule-based classification. 
 In Proceedings of the ECAI-Workshop on Computational Approaches to Subjectivity and Sentiment Analysis (WASSA), 2009.  <br />
 <a href="http://www.lsv.uni-saarland.de/wassa.pdf" target="_blank">http://www.lsv.uni-saarland.de/wassa.pdf</a>
