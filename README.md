@@ -34,12 +34,12 @@ The method combines two different bootstrapping procedures, namely for subjectiv
 
 - E. Riloff and J. Wiebe. Learning extraction patterns for subjective expressions.
 In Proceedings of the 2003 conference on Empirical methods in natural language
-processing, EMNLP ’03, 2003.  <br />
+processing, 2003.  <br />
 - D. K. M Wiegand. Bootstrapping supervised machine-learning polarity classifiers with rule-based classification. 
-In Proceedings of the ECAI-Workshop on Computational Approaches to Subjectivity and Sentiment Analysis (WASSA), 2009.  <br />
+In Proceedings of the ECAI-Workshop on Computational Approaches to Subjectivity and Sentiment Analysis, 2009.  <br />
 - T. Wilson, J. Wiebe, and P. Hoffmann. Recognizing contextual polarity in phrase-level sentiment 
 analysis. In Proceedings of the conference on Human Language Technology and Empirical Methods in 
-Natural Language Processing, HLT ’05, 2005. <br />
+Natural Language Processing, 2005. <br />
 
 Installing dependencies
 ------------
