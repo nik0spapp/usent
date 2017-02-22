@@ -129,7 +129,7 @@ class PolarityClassifier:
             print Tcolors.ADD + " PREDICTION: ", prediction, ", WITH CONFIDENCE: ", score
             print Tcolors.ADD + " NORMALIZED CONFIDENCE: ", score/len(self.words)
         
-        
+        self.words = [w for w in self.words if w != '']
         return prediction, score, score/len(self.words) #normalizedScore
       
     def extract_features(self):
