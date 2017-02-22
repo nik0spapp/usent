@@ -6,16 +6,10 @@ The attached code is an implementation of a dictionary-based sentiment classific
 @incollection{pappas13c,
  location = {Samos, Greece},
  year = {2013},
- isbn = {978-3-642-37255-1},
  booktitle = {Computational Linguistics and Intelligent Text Processing},
  volume = {7817},
- series = {Lecture Notes in Computer Science},
- editor = {Gelbukh, Alexander},
  doi = {10.1007/978-3-642-37256-8_17},
  title = {Distinguishing the Popularity between Topics: A System for Up-to-Date Opinion Retrieval and Mining in the Web},
- url = {http://dx.doi.org/10.1007/978-3-642-37256-8_17},
- publisher = {Springer Berlin Heidelberg},
- keywords = {Opinion Retrieval; Text Mining; Sentiment Analysis; Information Extraction; Utility-Based Agents},
  author = {Pappas, Nikolaos and Katsimpras, Georgios and Stamatatos, Efstathios},
  pages = {197-209}
 }
@@ -33,29 +27,21 @@ This code has been used also for improving one-class collaborative filtering ([<
  location = {Dublin, Ireland},
  pages = {773--776},
  numpages = {4},
- url = {http://doi.acm.org/10.1145/2484028.2484116},
- doi = {10.1145/2484028.2484116},
- acmid = {2484116},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {one-class collaborative filtering, sentiment analysis},
 } 
 ```
 
-The method combines two different bootstrapping procedures, namely for subjectivity and polarity detection (as in [<a href="http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf">3</a>, <a href="http://www.lsv.uni-saarland.de/wassa.pdf">4</a>] respectively). The rule-based polarity classifier is an extension of the one that was presented in [<a href="http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf">4</a>].
+The method combines two different bootstrapping procedures, namely for subjectivity and polarity detection (as in [<a href="http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf">3</a>, <a href="http://www.lsv.uni-saarland.de/wassa.pdf">4</a>] respectively). The rule-based polarity classifier is an extension of the one that was presented in [<a href="http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf">5</a>].
 
 - E. Riloff and J. Wiebe. Learning extraction patterns for subjective expressions.
 In Proceedings of the 2003 conference on Empirical methods in natural language
 processing, EMNLP ’03, 2003.  <br />
 - D. K. M Wiegand. Bootstrapping supervised machine-learning polarity classifiers with rule-based classification. 
 In Proceedings of the ECAI-Workshop on Computational Approaches to Subjectivity and Sentiment Analysis (WASSA), 2009.  <br />
-<a href="http://www.lsv.uni-saarland.de/wassa.pdf" target="_blank">http://www.lsv.uni-saarland.de/wassa.pdf</a>
 - T. Wilson, J. Wiebe, and P. Hoffmann. Recognizing contextual polarity in phrase-level sentiment 
 analysis. In Proceedings of the conference on Human Language Technology and Empirical Methods in 
 Natural Language Processing, HLT ’05, 2005. <br />
-<a href="http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf" target="_blank">http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf</a>
 
-Dependencies
+Installing dependencies
 ------------
 The available code for unsupervised sentiment classification requires Python programming 
 language and pip package manager to run. For detailed installing instructions please refer to 
