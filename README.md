@@ -104,7 +104,7 @@ can integrate the library to your code and use directly the returned results. Be
 find two simple examples for demonstrating purposes:
 
 ```bash
-$ python sentiment.py "I have to give much love and respect to Rony. Your work is Amazing\!"
+$ python sentiment.py "I have to give much love and respect to Rony. Your work is Amazing\\!"
 ```
 ```
 [+] Loaded existing UBT tagger!
@@ -141,6 +141,32 @@ $ python sentiment.py "I was blown away by some of the comments here posted by p
 uneducated, ignorant, self-righteous or al-of-the-above. I'm irritated and saddened as I read these 
 finger-pointing \"i'm right and you're wrong\" type of posts\!"
 ```
-![ScreenShot](https://raw.github.com/nik0spapp/unsupervised_sentiment/master/examples/2.png)
+```
+[+] Loaded existing UBT tagger!
+[+] Loaded existing pattern knowledge!
 
+[*] Checking block of text:
+[1] I was blown away by some of the comments here posted by people who is either uneducated, ignorant, self-righteous or al-of-the-above.
+[2] I'm irritated and saddened as I read these finger-pointing "i'm right and you're wrong" type of posts!
+
+[*] Overall sentiment analysis:
+
+ Parts:  2
+ Sentiments:  ['negative', 'negative']
+ Scores:  [-4, -4.0]
+ Results:  {'positive': {'count': 0, 'score': 0, 'nscore': 0},
+	    'neutral': {'count': 0, 'score': 0, 'nscore': 0},
+	    'negative': {'count': 2, 'score': -8.0, 'nscore': -0.3722943722943723}}
+
+
+ subjective-----> 100.00%
+ objective------> 0.00%
+
+
+ positive-------> 0.00%
+ neutral--------> 0.00%
+ negative-------> 100.00%
+
+[x] negative (-8.00, -0.37)
+```
 
