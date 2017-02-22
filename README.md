@@ -106,8 +106,34 @@ find two simple examples for demonstrating purposes:
 ```bash
 $ python sentiment.py "I have to give much love and respect to Rony. Your work is Amazing\!"
 ```
-![ScreenShot](https://raw.github.com/nik0spapp/unsupervised_sentiment/master/examples/1.png)
+```
+[+] Loaded existing UBT tagger!
+[+] Loaded existing pattern knowledge!
 
+[*] Checking block of text:
+[1] I have to give much love and respect to Rony.
+[2] Your work is Amazing!
+
+[*] Overall sentiment analysis:
+
+ Parts:  2
+ Sentiments:  ['positive', 'positive']
+ Scores:  [4, 6.0]
+ Results:  {'positive': {'count': 2, 'score': 10.0, 'nscore': 1.9},
+	    'neutral': {'count': 0, 'score': 0, 'nscore': 0},
+	    'negative': {'count': 0, 'score': 0, 'nscore': 0}}
+
+
+ subjective-----> 100.00%
+ objective------> 0.00%
+
+
+ positive-------> 100.00%
+ neutral--------> 0.00%
+ negative-------> 0.00%
+
+[x] positive (10.00, 1.90)
+```
 
 
 ```bash
