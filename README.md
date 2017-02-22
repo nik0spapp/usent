@@ -1,6 +1,6 @@
 Dictionary-based sentiment detection
 ======================
-The attached code is an implementation of a dictionary-based sentiment classification procedure that was used originally for an opinion mining and retrieval system presented at CICLing 2013 [<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf">1</a>]. 
+The attached code is a python implementation of a dictionary-based sentiment classification procedure that was used for an opinion mining and retrieval system presented at CICLing 2013 [<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf">1</a>]. 
 
 ```
 @incollection{pappas13c,
