@@ -87,14 +87,12 @@ classifier outputs the class of the sentence based on the learned patterns so fa
 then again more patterns are learned from it, otherwise it is fed to a high precision objectivity classifier.
 If the sentence is classified as objective, then it is ignored, otherwise it is fed to the polarity classifier.
 Finally, the polarity classifier estimates the numerical sentiment and normalized sentiment values and outputs
-the result. 
-
-![ScreenShot](https://raw.github.com/nik0spapp/unsupervised_sentiment/master/examples/bootstrap.png)
-
-The instances with high confidence from the polarity classifier can be further used to train an SVM 
+the result. The instances with high confidence from the polarity classifier can be further used to train an SVM 
 classifier to improve further the classification performance (see paper for further details). At the current version
 this option is disabled, but you can easily enable it. Similarly, you can remove some of the components from the 
 pipeline according to your needs (e.g. skip subjectivity classification).
+
+![ScreenShot](https://raw.github.com/nik0spapp/unsupervised_sentiment/master/examples/bootstrap.png)
 
 
 Examples
