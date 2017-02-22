@@ -93,8 +93,9 @@ classifier to improve further the classification performance (see paper for furt
 this option is disabled, but you can easily enable it. Similarly, you can remove some of the components from the 
 pipeline according to your needs (e.g. skip subjectivity classification).
 
-![ScreenShot](https://raw.github.com/nik0spapp/usent/master/images/bootstrap.png)
-
+<p align="center">
+<img src="images/bootstrap.png" width="300">
+</p>
 
 Examples
 --------
