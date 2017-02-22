@@ -2,17 +2,6 @@ Dictionary-based sentiment detection
 ======================
 The attached code is a python implementation of a dictionary-based sentiment classification procedure that was used for an opinion mining and retrieval system presented at CICLing 2013 [<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf">1</a>]. This code has been used also for improving one-class collaborative filtering [<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf">2</a>]. There is also a folder called /TED_comment_annotations that contains the files of the human study we conducted on TED comment sentiment classification (with 6 human annotators).  
 
-The method combines two different bootstrapping procedures, namely for subjectivity and polarity detection (as in [<a href="http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf">3</a>, <a href="http://www.lsv.uni-saarland.de/wassa.pdf">4</a>] respectively). The rule-based polarity classifier is an extension of the one that was presented in [<a href="http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf">5</a>].
-
-- E. Riloff and J. Wiebe. Learning extraction patterns for subjective expressions.
-In Proceedings of the 2003 conference on Empirical methods in natural language
-processing, 2003.  <br />
-- D. K. M Wiegand. Bootstrapping supervised machine-learning polarity classifiers with rule-based classification. 
-In Proceedings of the ECAI-Workshop on Computational Approaches to Subjectivity and Sentiment Analysis, 2009.  <br />
-- T. Wilson, J. Wiebe, and P. Hoffmann. Recognizing contextual polarity in phrase-level sentiment 
-analysis. In Proceedings of the conference on Human Language Technology and Empirical Methods in 
-Natural Language Processing, 2005. <br />
- 
 ```
 @incollection{pappas13c,
  location = {Samos, Greece},
@@ -37,6 +26,18 @@ Natural Language Processing, 2005. <br />
  numpages = {4},
 } 
 ```
+
+The method combines two different bootstrapping procedures, namely for subjectivity and polarity detection (as in [<a href="http://www.cs.utah.edu/~riloff/pdfs/emnlp03.pdf">3</a>, <a href="http://www.lsv.uni-saarland.de/wassa.pdf">4</a>] respectively). The rule-based polarity classifier is an extension of the one that was presented in [<a href="http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf">5</a>].
+
+- E. Riloff and J. Wiebe. Learning extraction patterns for subjective expressions.
+In Proceedings of the 2003 conference on Empirical methods in natural language
+processing, 2003.  <br />
+- D. K. M Wiegand. Bootstrapping supervised machine-learning polarity classifiers with rule-based classification. 
+In Proceedings of the ECAI-Workshop on Computational Approaches to Subjectivity and Sentiment Analysis, 2009.  <br />
+- T. Wilson, J. Wiebe, and P. Hoffmann. Recognizing contextual polarity in phrase-level sentiment 
+analysis. In Proceedings of the conference on Human Language Technology and Empirical Methods in 
+Natural Language Processing, 2005. <br />
+ 
 
 Installing dependencies
 ------------
@@ -85,15 +86,16 @@ that the sentence is not detected as such then it is fed to the pattern-based cl
 classifier outputs the class of the sentence based on the learned patterns so far. If the instance is subjective
 then again more patterns are learned from it, otherwise it is fed to a high precision objectivity classifier.
 If the sentence is classified as objective, then it is ignored, otherwise it is fed to the polarity classifier.
-
 Finally, the polarity classifier estimates the numerical sentiment and normalized sentiment values and outputs
-the result. The instances with high confidence from the polarity classifier can be further used to train an SVM 
+the result. 
+
+![ScreenShot](https://raw.github.com/nik0spapp/unsupervised_sentiment/master/examples/bootstrap.png)
+
+The instances with high confidence from the polarity classifier can be further used to train an SVM 
 classifier to improve further the classification performance (see paper for further details). At the current version
 this option is disabled, but you can easily enable it. Similarly, you can remove some of the components from the 
 pipeline according to your needs (e.g. skip subjectivity classification).
 
-
-![ScreenShot](https://raw.github.com/nik0spapp/unsupervised_sentiment/master/examples/bootstrap.png)
 
 Examples
 --------
