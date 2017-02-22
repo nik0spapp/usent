@@ -94,7 +94,7 @@ this option is disabled, but you can easily enable it. Similarly, you can remove
 pipeline according to your needs (e.g. skip subjectivity classification).
 
 <p align="center">
-<img src="images/bootstrap.png" width="700">
+<img src="images/bootstrap.png" width="600">
 </p>
 
 Examples
