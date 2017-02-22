@@ -13,9 +13,7 @@ The attached code is a python implementation of a dictionary-based sentiment cla
  author = {Pappas, Nikolaos and Katsimpras, Georgios and Stamatatos, Efstathios},
  pages = {197-209}
 }
-```
- 
-```
+
 @inproceedings{pappas13a,
  author = {Pappas, Nikolaos and Popescu-Belis, Andrei},
  title = {Sentiment Analysis of User Comments for One-Class Collaborative Filtering Over {TED} Talks},
