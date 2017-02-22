@@ -14,7 +14,7 @@ The attached code is an implementation of a dictionary-based sentiment classific
  pages = {197-209}
 }
 ```
-This code has been used also for improving one-class collaborative filtering ([<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf">2</a>]). There is a folder called "TED_comment_annotations" that contains the files of the human study we conducted on TED comment sentiment classification (with 6 human annotators).  
+This code has been used also for improving one-class collaborative filtering [<a href="http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf">2</a>]. There is a folder called "TED_comment_annotations" that contains the files of the human study we conducted on TED comment sentiment classification (with 6 human annotators).  
  
 ```
 @inproceedings{pappas13a,
