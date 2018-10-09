@@ -169,6 +169,5 @@ finger-pointing \"i'm right and you're wrong\" type of posts\!"
 
 [x] negative (-8.00, -0.37)
 ```
-
 ## Contact:
 npappas@idiap.ch
